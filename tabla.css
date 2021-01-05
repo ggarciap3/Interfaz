@@ -1,0 +1,65 @@
+/* Google Fonts:Fuentes y tipo de letra*/
+/* Afecta a todo el html */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-weight: 0 auto;
+}
+p{
+    font-weight: 300;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-alineado{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888;
+    width: 24%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: rgb(11, 182, 235);
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(250,93,75);
+}
+@media(max-width:1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
